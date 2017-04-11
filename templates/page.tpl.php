@@ -23,13 +23,15 @@
 <!--.page -->
 <div role="document" class="page">
   <div class="navigation-top-bar">
-      <div class="menu-ball">
-        <div class="c-hamburger c-hamburger--htx">
-            <a href="#" ><span></span></a>
-        </div>
+      <div class="inner">
+          <div class="menu-ball">
+            <div class="c-hamburger c-hamburger--htx">
+                <a href="#" ><span></span></a>
+            </div>
+          </div>
+        <div class="logo"><?php print $linked_logo;?></div>
+        <div class="sidtitel"><a href="/"><?php print $site_name; ?></a></div>
       </div>
-    <div class="logo"><?php print $linked_logo;?></div>
-    <div class="sidtitel"><a href="/"><?php print $site_name; ?></a></div>
   </div>
   <!--.l-header -->
   <header role="banner" class="l-header">
@@ -189,7 +191,9 @@
     </div>
   </footer>
   <!--/.l-footer -->
-
+    <a href="#0" class="scroll-top" style="display: inline;">
+        <i class="fi-arrow-up"></i>
+    </a>
   <?php if ($messages && $zurb_foundation_messages_modal): print $messages; endif; ?>
 </div>
 <!--/.page -->

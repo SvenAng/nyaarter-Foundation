@@ -9880,14 +9880,38 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
-/*======== Navigation i top ======== */
+/* line 7, ../scss/base/_init.scss */
+.scroll-top {
+  background-color: gray;
+  border-radius: 4px;
+  bottom: 1.5rem;
+  display: none;
+  height: 40px;
+  position: fixed;
+  right: 2rem;
+  text-align: center;
+  width: 40px;
+}
+
+/* line 19, ../scss/base/_init.scss */
+.fi-arrow-up::before {
+  content: "";
+}
+
+/* line 22, ../scss/base/_init.scss */
+.scroll-top i {
+  color: #ffffff;
+  font-size: 1.7rem;
+  padding: 0;
+}
+
 /*OVERRIDES*/
-/* line 51, ../scss/base/_init.scss */
+/* line 31, ../scss/base/_init.scss */
 .fieldset-wrapper .has-tip {
   display: none;
 }
 
-/* line 55, ../scss/base/_init.scss */
+/* line 35, ../scss/base/_init.scss */
 label[for=edit-field-strandkrabba-hona-und-0-value],
 label[for=edit-field-strandkrabba-hane-und-0-value],
 label[for=edit-field-bl-krabbor-und-0-value],
@@ -9897,7 +9921,7 @@ label[for=edit-field-tid-i-vattnet-und-0-value] {
   width: 210px;
 }
 
-/* line 63, ../scss/base/_init.scss */
+/* line 43, ../scss/base/_init.scss */
 #edit-field-strandkrabba-hona-und-0-value,
 #edit-field-strandkrabba-hane-und-0-value,
 #edit-field-bl-krabbor-und-0-value,
@@ -9908,178 +9932,184 @@ label[for=edit-field-tid-i-vattnet-und-0-value] {
   /*text-align: right;*/
 }
 
-/* line 73, ../scss/base/_init.scss */
+/* line 53, ../scss/base/_init.scss */
 .node-form #edit-submit {
   width: 100%;
 }
 
-/* line 77, ../scss/base/_init.scss */
+/* line 57, ../scss/base/_init.scss */
 fieldset.date-combo .container-inline-date .date-padding {
   padding: 0 10px 0 0;
 }
 
-/* line 80, ../scss/base/_init.scss */
+/* line 60, ../scss/base/_init.scss */
 .container-inline-date .form-item input, .container-inline-date .form-item select, .container-inline-date .form-item option {
   margin-right: 5px;
   margin-bottom: 0;
 }
 
-/* line 84, ../scss/base/_init.scss */
+/* line 64, ../scss/base/_init.scss */
 .page-node-add-bur h1 {
   display: none;
 }
 
-/* line 88, ../scss/base/_init.scss */
+/* line 68, ../scss/base/_init.scss */
 .field-type-entityreference thead {
   display: none;
 }
 
-/* line 91, ../scss/base/_init.scss */
+/* line 71, ../scss/base/_init.scss */
 .field-type-entityreference ul {
   margin: 0;
   padding: 0;
 }
 
-/* line 95, ../scss/base/_init.scss */
+/* line 75, ../scss/base/_init.scss */
 .field-type-entityreference ul li {
   list-style-type: none;
 }
 
-/* line 98, ../scss/base/_init.scss */
+/* line 78, ../scss/base/_init.scss */
 .tabledrag-toggle-weight-wrapper {
   display: none;
 }
 
-/* line 101, ../scss/base/_init.scss */
+/* line 81, ../scss/base/_init.scss */
 .ief-tabledrag-handle {
   display: none;
 }
 
-/* line 104, ../scss/base/_init.scss */
+/* line 84, ../scss/base/_init.scss */
 .field-type-entityreference .form-submit {
   /*padding: 0.4rem 0.4rem;*/
   /*margin:  0;*/
   /*font-size: 0.75rem;*/
 }
 
-/* line 109, ../scss/base/_init.scss */
+/* line 89, ../scss/base/_init.scss */
 .field-type-entityreference table tr td, .field-type-entityreference ul li {
   font-size: 0.9rem;
   line-height: 2rem;
   color: #777;
 }
 
-/* line 114, ../scss/base/_init.scss */
+/* line 94, ../scss/base/_init.scss */
 .field-type-entityreference table tr td {
   padding-right: 4px;
   padding-left: 0;
 }
 
-/* line 118, ../scss/base/_init.scss */
+/* line 98, ../scss/base/_init.scss */
 .field-type-entityreference tr.even, tr.odd {
   background: none;
   /*border-left: none;
   border-right: none;*/
 }
 
-/* line 124, ../scss/base/_init.scss */
+/* line 104, ../scss/base/_init.scss */
 .field-type-entityreference table {
   width: 100%;
   border: none;
 }
 
-/* line 128, ../scss/base/_init.scss */
+/* line 108, ../scss/base/_init.scss */
 .field-type-entityreference table tr {
   border: none;
   border-bottom: 1px solid #dddddd;
 }
 
-/* line 132, ../scss/base/_init.scss */
+/* line 112, ../scss/base/_init.scss */
 .button.secondary a {
   color: #FFFFFF;
 }
 
-/* line 137, ../scss/base/_init.scss */
+/* line 117, ../scss/base/_init.scss */
 input[type="file"], input[type="checkbox"], input[type="radio"], select {
   margin: 0 !important;
 }
 
-/* line 140, ../scss/base/_init.scss */
+/* line 120, ../scss/base/_init.scss */
 #edit-field-projekt {
   margin-bottom: 2rem !important;
 }
 
-/* line 144, ../scss/base/_init.scss */
+/* line 124, ../scss/base/_init.scss */
 .page-user .button-group {
   display: none;
 }
 
-/* line 148, ../scss/base/_init.scss */
+/* line 128, ../scss/base/_init.scss */
 .l-header, .l-main, .l-messages {
   background: #FFFFFF;
 }
 
-/* line 151, ../scss/base/_init.scss */
+/* line 131, ../scss/base/_init.scss */
 .l-main {
   margin-bottom: 2rem;
+  margin-top: 55px;
 }
 
-/* line 154, ../scss/base/_init.scss */
+/* line 135, ../scss/base/_init.scss */
 .l-featured {
   /*background: $nyaarter-featured-gray;*/
-  background: #747474 url("../images/krabba1.jpg") no-repeat center top;
-  background-size: cover;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-/* line 162, ../scss/base/_init.scss */
+/* line 143, ../scss/base/_init.scss */
 .l-main .block-views .column {
   padding-left: 0;
 }
 
-/* line 165, ../scss/base/_init.scss */
+/* line 146, ../scss/base/_init.scss */
 .l-main .main .column {
   padding-left: 0;
 }
 
-/* line 168, ../scss/base/_init.scss */
+/* line 149, ../scss/base/_init.scss */
 .l-featured section {
   margin-bottom: 2rem;
 }
 
-/* line 171, ../scss/base/_init.scss */
+/* line 152, ../scss/base/_init.scss */
 .l-featured h2 {
   color: #FFFFFF;
   text-align: center;
   font-size: 1.2rem;
 }
 
-/* line 176, ../scss/base/_init.scss */
+/* line 157, ../scss/base/_init.scss */
 .l-messages {
   margin-top: 1rem;
 }
 
-/* line 179, ../scss/base/_init.scss */
+/* line 160, ../scss/base/_init.scss */
 .navigation-top-bar {
-  background: #444;
+  background: url(../images/smal-bakgrund-1.jpg) center top;
   width: 100%;
   height: 50px;
   padding: 3px;
+  z-index: 999999;
+}
+/* line 169, ../scss/base/_init.scss */
+.navigation-top-bar .inner {
+  max-width: 61.5em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* line 185, ../scss/base/_init.scss */
+/* line 175, ../scss/base/_init.scss */
 .image-widget .form-file {
   margin-bottom: 1rem;
   padding-bottom: 2rem !important;
 }
 
-/* line 189, ../scss/base/_init.scss */
+/* line 179, ../scss/base/_init.scss */
 .form-item {
   margin: 0;
 }
 
-/* line 193, ../scss/base/_init.scss */
+/* line 183, ../scss/base/_init.scss */
 .navigation-top-bar-menu-button {
   display: inline-block;
   cursor: pointer;
@@ -10092,7 +10122,7 @@ input[type="file"], input[type="checkbox"], input[type="radio"], select {
   border-radius: 20px;
 }
 
-/* line 204, ../scss/base/_init.scss */
+/* line 194, ../scss/base/_init.scss */
 .navigation-top-bar-menu-button a {
   color: #FFFFFF;
   text-align: center;
@@ -10100,27 +10130,29 @@ input[type="file"], input[type="checkbox"], input[type="radio"], select {
   display: block;
 }
 
-/* line 211, ../scss/base/_init.scss */
+/* line 201, ../scss/base/_init.scss */
 .navigation-top-bar .logo {
   display: inline-block;
 }
 
-/* line 216, ../scss/base/_init.scss */
+/* line 206, ../scss/base/_init.scss */
 .navigation-top-bar .sidtitel {
   margin-left: 2rem;
   float: left;
   line-height: 2.8rem;
   font-size: 1.1rem;
   text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 0.6px;
 }
 
-/* line 226, ../scss/base/_init.scss */
+/* line 218, ../scss/base/_init.scss */
 .navigation-top-bar .sidtitel a {
   color: #FFFFFF;
 }
 
 /*Footer columns*/
-/* line 230, ../scss/base/_init.scss */
+/* line 222, ../scss/base/_init.scss */
 .l-footer-columns {
   /*background: $footer;*/
   color: #FFFFFF;
@@ -10129,12 +10161,12 @@ input[type="file"], input[type="checkbox"], input[type="radio"], select {
   padding-top: 1rem;
 }
 
-/* line 237, ../scss/base/_init.scss */
+/* line 229, ../scss/base/_init.scss */
 .l-footer-columns p, .l-footer-columns {
   font-size: 0.8rem;
 }
 
-/* line 240, ../scss/base/_init.scss */
+/* line 232, ../scss/base/_init.scss */
 .l-footer-columns .block-title {
   color: #FFFFFF;
   font-size: 1.2rem;
@@ -10142,19 +10174,19 @@ input[type="file"], input[type="checkbox"], input[type="radio"], select {
 }
 
 /*Footer bottom*/
-/* line 246, ../scss/base/_init.scss */
+/* line 238, ../scss/base/_init.scss */
 .l-footer {
   background: #666666;
   color: #FFFFFF;
   /*max-width: 100rem;*/
 }
 
-/* line 252, ../scss/base/_init.scss */
+/* line 244, ../scss/base/_init.scss */
 .l-footer.bottom {
   background: #000000;
 }
 
-/* line 255, ../scss/base/_init.scss */
+/* line 247, ../scss/base/_init.scss */
 .footer, .footer p {
   text-align: center;
   font-size: 0.7rem;
@@ -10162,12 +10194,12 @@ input[type="file"], input[type="checkbox"], input[type="radio"], select {
 
 /*=======================*/
 /*Footer menu\*/
-/* line 262, ../scss/base/_init.scss */
+/* line 254, ../scss/base/_init.scss */
 .l-footer-columns ul.menu {
   margin: 0;
 }
 
-/* line 265, ../scss/base/_init.scss */
+/* line 257, ../scss/base/_init.scss */
 .l-footer-columns ul.menu li {
   list-style-type: none;
   border-bottom: 1px dotted #969696;
@@ -10176,12 +10208,12 @@ input[type="file"], input[type="checkbox"], input[type="radio"], select {
   padding-left: 0.6rem;
 }
 
-/* line 272, ../scss/base/_init.scss */
+/* line 264, ../scss/base/_init.scss */
 .l-footer-columns ul.menu li.last {
   border-bottom: none;
 }
 
-/* line 275, ../scss/base/_init.scss */
+/* line 267, ../scss/base/_init.scss */
 .l-footer-columns ul.menu li a {
   color: #d8d8d8;
   font-size: 0.9rem;

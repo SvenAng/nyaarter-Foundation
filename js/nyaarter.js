@@ -1,36 +1,27 @@
 jQuery(document).ready(function () {
+    
     jQuery(".c-hamburger").click(function(){
-//        alert("hej");
-        //jQuery("#mobilmeny").fadeToggle("fast");
-//        this.classList.toggle("open");
         jQuery('#main-navigation').toggleClass('open');
         jQuery('.c-hamburger').toggleClass('is-active');
     });
-//    jQuery("#menu-close").click(function(){
-//        jQuery('#main-navigation').removeClass('open');
-//    });
+
+    jQuery(".scroll-top").click(function() {
+        jQuery("html, body").animate({scrollTop: 0 }, "slow");
+        return false;
+
+    });
     
-//    "use strict";
-//
-//    var toggles = document.querySelectorAll(".menu-toggle");
-//
-//    for (var i = toggles.length - 1; i >= 0; i--) {
-//        var toggle = toggles[i];
-//        toggleHandler(toggle);
-//    };
-//
-//    function toggleHandler(toggle) {
-//        toggle.addEventListener( "click", function(e) {
-//            e.preventDefault();
-//            (this.classList.contains("open") === true) ? this.classList.remove("open") : this.classList.add("open");
-//        });
-//    }
+    var offset = 120;
+    var duration = 500;
+
+    jQuery('.scroll-top').hide();
     
-//    $("button").click(function(){
-//        $("p").toggleClass("main");
-//    });
-    
-    
-    
+    jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+            jQuery('.scroll-top').fadeIn(duration);
+        } else {
+            jQuery('.scroll-top').fadeOut(duration);
+        }
+    });
     
 });

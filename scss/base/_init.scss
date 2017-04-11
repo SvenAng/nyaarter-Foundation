@@ -2,49 +2,29 @@
 
 
 
-/*======== Navigation i top ======== */
 
-//.menu-toggle { 
-//    margin-top: 1rem;
-//    display: block;
-//    cursor: pointer; 
-//    padding: 10px 35px 16px 0px;
-//}
-//.menu-toggle span, 
-//.menu-toggle span:before, 
-//.menu-toggle span:after {
-//    cursor: pointer;
-//    border-radius: 5px;
-//    height: 4px;
-//    width: 25px;
-//    background: $white;
-//    position: absolute;
-//    display: block;
-//    content: '';
-//}
-//.menu-toggle span:before {
-//    top: -10px; 
-//}
-//.menu-toggle span:after {
-//    bottom: -10px;
-//}
-//
-//.menu-toggle span, .menu-toggle span:before, .menu-toggle span:after {
-//    transition: all 300ms ease-in-out;
-//}
-//.menu-toggle.active span {
-//    background-color: transparent;
-//}
-//.menu-toggle.active span:before, .menu-toggle.active span:after {
-//    top: 0;
-//}
-//.menu-toggle.active span:before {
-//    transform: rotate(45deg);
-//}
-//.menu-toggle.active span:after {
-//    transform: rotate(-45deg);
-//}
+//scroll
+.scroll-top {
+    background-color: $primary-color;
+    border-radius: 4px;
+    bottom: 1.5rem;
+    display: none;
+    height: 40px;
+    position: fixed;
+    right: 2rem;
+    text-align: center;
+    width: 40px;
+}
 
+.fi-arrow-up::before {
+    content: "";
+}
+.scroll-top i {
+    color: #ffffff;
+    font-size: 1.7rem;
+    //    margin: 0 0 2.5rem 0;
+    padding: 0;
+}
 
 /*OVERRIDES*/
 
@@ -150,11 +130,12 @@ input[type="file"], input[type="checkbox"], input[type="radio"], select {
 }
 .l-main{
 	margin-bottom: 2rem;
+    margin-top: 55px;
 }
 .l-featured{
 	/*background: $nyaarter-featured-gray;*/
-	background: $nyaarter-featured-gray url('../images/krabba1.jpg') no-repeat center top;	
-	background-size: cover;
+//	background: $nyaarter-featured-gray url('../images/krabba1.jpg') no-repeat center top;	
+//	background-size: cover;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 	
@@ -177,10 +158,19 @@ input[type="file"], input[type="checkbox"], input[type="radio"], select {
 	margin-top: 1rem;
 }
 .navigation-top-bar{
-	background: $navigation-top-color;
+//	background: $navigation-top-color;
+    background: url(../images/smal-bakgrund-1.jpg) center top;
 	width: 100%;
 	height: 50px;
     padding: 3px;
+//    position: fixed;
+//    top: 0;
+    z-index: 999999;
+    .inner{
+        max-width: 61.5em;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 .image-widget .form-file{
 	margin-bottom: 1rem;
@@ -222,6 +212,8 @@ input[type="file"], input[type="checkbox"], input[type="radio"], select {
     line-height: 2.8rem;
     font-size: 1.1rem;
     text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.6px;
 }
 .navigation-top-bar .sidtitel a{
 	color: $white;
