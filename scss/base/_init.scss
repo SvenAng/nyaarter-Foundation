@@ -1,7 +1,9 @@
 @import "../functions";
 
 
-
+//button, .button {
+//    padding:  0.5rem 1rem;
+//}
 
 //scroll
 .scroll-top {
@@ -26,6 +28,27 @@
     padding: 0;
 }
 
+//main Form\
+
+#edit-field-art-und-form-field-antal-und-0-value,
+#edit-field-art-und-entities-0-form-field-antal-und-0-value{
+    width: 50px;
+}
+.form-item-field-art-und-entities-0-form-field-metod-und,
+#edit-field-art-und-form-field-metod{
+    margin-bottom: 1rem;
+}
+#fynden-node-form legend,
+#fynden-node-form label{
+    font-weight: 600;
+    color: $nyaarter-orange;
+}
+#fynden-node-form .form-radios label{
+    color: $jet;
+}
+#edit-field-art-und-form .fieldset-wrapper div{
+    margin-bottom: 1rem;
+}
 /*OVERRIDES*/
 
 .fieldset-wrapper .has-tip{
@@ -61,7 +84,7 @@ fieldset.date-combo .container-inline-date .date-padding {
     margin-right: 5px;
 	margin-bottom: 0;
 }
-.page-node-add-bur h1{
+.page-node-add-fynden #page-title{
 	display: none;
 }
 
@@ -122,7 +145,7 @@ input[type="file"], input[type="checkbox"], input[type="radio"], select {
 }
 /////// END OVERRIDES  ////////////////////////////
 .page-user .button-group{
-	display: none;
+//	display: none;
 }
 
 .l-header, .l-main, .l-messages{
@@ -130,7 +153,7 @@ input[type="file"], input[type="checkbox"], input[type="radio"], select {
 }
 .l-main{
 	margin-bottom: 2rem;
-    margin-top: 55px;
+//    margin-top: 55px; Denna behövs vid sticky meny
 }
 .l-featured{
 	/*background: $nyaarter-featured-gray;*/

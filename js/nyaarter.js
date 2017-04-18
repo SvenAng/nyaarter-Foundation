@@ -24,4 +24,9 @@ jQuery(document).ready(function () {
         }
     });
     
+    
+//    jQuery(this).find('#edit-field-art-und-actions-ief-add').text('Lägg till art');
+//    jQuery(this).find('#edit-field-art-und-form-actions-ief-add-save--2').text('Lägg till art');
+    
+
 });

@@ -601,7 +601,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Source Sans Pro", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
   line-height: 1.5;
   position: relative;
@@ -2208,7 +2208,7 @@ select {
 /* line 18, ../scss/components/_vyer.scss */
 .fynd .bur-title a {
   font-size: 15px;
-  color: #D0338D;
+  color: #d03351;
   font-weight: bold;
 }
 
@@ -2266,7 +2266,7 @@ select {
 /* line 59, ../scss/components/_vyer.scss */
 .statistik-vy .view-content span {
   font-size: 2rem;
-  background: #D0338D;
+  background: #d03351;
   color: #FFFFFF;
   border-radius: 1rem;
   padding: 0.5rem 1rem;
@@ -2335,7 +2335,7 @@ select {
   border-style: solid;
   border-width: 1px;
   display: block;
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 1.25rem;
   position: relative;
   padding: 0.875rem 1.5rem 0.875rem 0.875rem;
@@ -3020,7 +3020,7 @@ button, .button {
   border-width: 0;
   cursor: pointer;
   font-family: "Source Sans Pro", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   line-height: normal;
   margin: 0 0 1.25rem;
   position: relative;
@@ -3029,10 +3029,10 @@ button, .button {
   -webkit-appearance: none;
   border-radius: 0;
   display: inline-block;
-  padding-top: 1rem;
-  padding-right: 2rem;
-  padding-bottom: 1.0625rem;
-  padding-left: 2rem;
+  padding-top: 0.375rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.4375rem;
+  padding-left: 0.75rem;
   font-size: 1rem;
   background-color: gray;
   border-color: #666666;
@@ -3049,13 +3049,13 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 /* line 223, ../scss/components/_buttons.scss */
 button.secondary, .button.secondary {
-  background-color: #D0338D;
-  border-color: #a82771;
+  background-color: #d03351;
+  border-color: #a82740;
   color: #FFFFFF;
 }
 /* line 161, ../scss/components/_buttons.scss */
 button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
-  background-color: #a82771;
+  background-color: #a82740;
 }
 /* line 167, ../scss/components/_buttons.scss */
 button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
@@ -3119,27 +3119,27 @@ button.info:hover, button.info:focus, .button.info:hover, .button.info:focus {
 }
 /* line 229, ../scss/components/_buttons.scss */
 button.large, .button.large {
-  padding-top: 1.125rem;
-  padding-right: 2.25rem;
-  padding-bottom: 1.1875rem;
-  padding-left: 2.25rem;
-  font-size: 1.25rem;
+  padding-top: 0.375rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.4375rem;
+  padding-left: 0.75rem;
+  font-size: 1rem;
 }
 /* line 230, ../scss/components/_buttons.scss */
 button.small, .button.small {
-  padding-top: 0.875rem;
-  padding-right: 1.75rem;
-  padding-bottom: 0.9375rem;
-  padding-left: 1.75rem;
-  font-size: 0.8125rem;
+  padding-top: 0.375rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.4375rem;
+  padding-left: 0.75rem;
+  font-size: 1rem;
 }
 /* line 231, ../scss/components/_buttons.scss */
 button.tiny, .button.tiny {
-  padding-top: 0.625rem;
-  padding-right: 1.25rem;
-  padding-bottom: 0.6875rem;
-  padding-left: 1.25rem;
-  font-size: 0.6875rem;
+  padding-top: 0.375rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.4375rem;
+  padding-left: 0.75rem;
+  font-size: 1rem;
 }
 /* line 232, ../scss/components/_buttons.scss */
 button.expand, .button.expand {
@@ -3188,8 +3188,8 @@ button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[dis
 }
 /* line 241, ../scss/components/_buttons.scss */
 button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
-  background-color: #D0338D;
-  border-color: #a82771;
+  background-color: #d03351;
+  border-color: #a82740;
   color: #FFFFFF;
   cursor: default;
   opacity: 0.7;
@@ -3197,7 +3197,7 @@ button.disabled.secondary, button[disabled].secondary, .button.disabled.secondar
 }
 /* line 161, ../scss/components/_buttons.scss */
 button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
-  background-color: #a82771;
+  background-color: #a82740;
 }
 /* line 167, ../scss/components/_buttons.scss */
 button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
@@ -3205,7 +3205,7 @@ button.disabled.secondary:hover, button.disabled.secondary:focus, button[disable
 }
 /* line 178, ../scss/components/_buttons.scss */
 button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .button.disabled.secondary:focus, .button[disabled].secondary:hover, .button[disabled].secondary:focus {
-  background-color: #D0338D;
+  background-color: #d03351;
 }
 /* line 242, ../scss/components/_buttons.scss */
 button.disabled.success, button[disabled].success, .button.disabled.success, .button[disabled].success {
@@ -3632,17 +3632,17 @@ button::-moz-focus-inner {
 }
 /* line 115, ../scss/components/_button-groups.scss */
 .button-group.round.stack > *:first-child, .button-group.round.stack > *:first-child > a, .button-group.round.stack > *:first-child > button, .button-group.round.stack > *:first-child > .button {
-  -webkit-top-left-radius: 1rem;
-  -webkit-top-right-radius: 1rem;
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
+  -webkit-top-left-radius: 0.375rem;
+  -webkit-top-right-radius: 0.375rem;
+  border-top-left-radius: 0.375rem;
+  border-top-right-radius: 0.375rem;
 }
 /* line 126, ../scss/components/_button-groups.scss */
 .button-group.round.stack > *:last-child, .button-group.round.stack > *:last-child > a, .button-group.round.stack > *:last-child > button, .button-group.round.stack > *:last-child > .button {
-  -webkit-bottom-left-radius: 1rem;
-  -webkit-bottom-right-radius: 1rem;
-  border-bottom-left-radius: 1rem;
-  border-bottom-right-radius: 1rem;
+  -webkit-bottom-left-radius: 0.375rem;
+  -webkit-bottom-right-radius: 0.375rem;
+  border-bottom-left-radius: 0.375rem;
+  border-bottom-right-radius: 0.375rem;
 }
 @media only screen and (min-width: 40.063em) {
   /* line 178, ../scss/components/_button-groups.scss */
@@ -3713,17 +3713,17 @@ button::-moz-focus-inner {
   }
   /* line 115, ../scss/components/_button-groups.scss */
   .button-group.round.stack-for-small > *:first-child, .button-group.round.stack-for-small > *:first-child > a, .button-group.round.stack-for-small > *:first-child > button, .button-group.round.stack-for-small > *:first-child > .button {
-    -webkit-top-left-radius: 1rem;
-    -webkit-top-right-radius: 1rem;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
+    -webkit-top-left-radius: 0.375rem;
+    -webkit-top-right-radius: 0.375rem;
+    border-top-left-radius: 0.375rem;
+    border-top-right-radius: 0.375rem;
   }
   /* line 126, ../scss/components/_button-groups.scss */
   .button-group.round.stack-for-small > *:last-child, .button-group.round.stack-for-small > *:last-child > a, .button-group.round.stack-for-small > *:last-child > button, .button-group.round.stack-for-small > *:last-child > .button {
-    -webkit-bottom-left-radius: 1rem;
-    -webkit-bottom-right-radius: 1rem;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
+    -webkit-bottom-left-radius: 0.375rem;
+    -webkit-bottom-right-radius: 0.375rem;
+    border-bottom-left-radius: 0.375rem;
+    border-bottom-right-radius: 0.375rem;
   }
 }
 /* line 188, ../scss/components/_button-groups.scss */
@@ -4576,7 +4576,7 @@ label {
   color: #4d4d4d;
   cursor: pointer;
   display: block;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.5;
   margin-bottom: 0;
   /* Styles for required inputs */
@@ -4699,7 +4699,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   font-family: inherit;
   border-style: solid;
   border-width: 1px;
-  border-color: #444;
+  border-color: #007ad8;
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   color: rgba(0, 0, 0, 0.75);
   display: block;
@@ -4841,7 +4841,7 @@ select {
   background-repeat: no-repeat;
   border-style: solid;
   border-width: 1px;
-  border-color: #444;
+  border-color: #007ad8;
   padding: 0.5rem;
   font-size: 0.875rem;
   font-family: "Source Sans Pro", sans-serif;
@@ -4904,7 +4904,7 @@ fieldset {
 }
 /* line 272, ../scss/components/_forms.scss */
 fieldset legend {
-  font-weight: 600;
+  font-weight: 700;
   background: #FFFFFF;
   padding: 0 0.1875rem;
   margin: 0;
@@ -4919,7 +4919,7 @@ fieldset legend {
   margin-top: -1px;
   margin-bottom: 1rem;
   font-size: 0.75rem;
-  font-weight: 300;
+  font-weight: 400;
   font-style: italic;
   background: #f04124;
   color: #FFFFFF;
@@ -4936,7 +4936,7 @@ span.error, small.error {
   margin-top: -1px;
   margin-bottom: 1rem;
   font-size: 0.75rem;
-  font-weight: 300;
+  font-weight: 400;
   font-style: italic;
   background: #f04124;
   color: #FFFFFF;
@@ -4965,7 +4965,7 @@ span.error, small.error {
   margin-top: -1px;
   margin-bottom: 1rem;
   font-size: 0.75rem;
-  font-weight: 300;
+  font-weight: 400;
   font-style: italic;
   background: #f04124;
   color: #FFFFFF;
@@ -5378,7 +5378,7 @@ label.error {
 /*Mobile menu\*/
 /* line 115, ../scss/components/_monoclickmenu.scss */
 #main-navigation {
-  background: #D0338D;
+  background: #007ad8;
   height: 100%;
   opacity: 0;
   overflow-y: auto;
@@ -5481,7 +5481,7 @@ label.error {
   top: 0;
   left: 2.5%;
   font-family: inherit;
-  font-weight: 300;
+  font-weight: 400;
   width: 95%;
 }
 
@@ -5553,7 +5553,7 @@ label.error {
 .joyride-tip-guide h6 {
   line-height: 1.25;
   margin: 0;
-  font-weight: 600;
+  font-weight: 700;
   color: #FFFFFF;
 }
 
@@ -5590,7 +5590,7 @@ label.error {
   color: #777777 !important;
   text-decoration: none;
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: .5 !important;
 }
 /* line 155, ../../zurb_foundation/scss/foundation/components/_joyride.scss */
@@ -5684,7 +5684,7 @@ kbd {
 
 /* line 91, ../../zurb_foundation/scss/foundation/components/_labels.scss */
 .label {
-  font-weight: 300;
+  font-weight: 400;
   font-family: "Source Sans Pro", sans-serif;
   text-align: center;
   text-decoration: none;
@@ -6136,7 +6136,7 @@ ul.pagination li.unavailable:hover a, ul.pagination li.unavailable a:focus, ul.p
 ul.pagination li.current a, ul.pagination li.current button {
   background: gray;
   color: #FFFFFF;
-  font-weight: 600;
+  font-weight: 700;
   cursor: default;
 }
 /* line 74, ../../zurb_foundation/scss/foundation/components/_pagination.scss */
@@ -6254,7 +6254,7 @@ ul.pagination li {
   padding: 0.9375rem 1.25rem;
   text-align: center;
   color: #EEEEEE;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1rem;
   font-family: "Source Sans Pro", sans-serif;
 }
@@ -6264,7 +6264,7 @@ ul.pagination li {
   padding: 0.9375rem 1.25rem;
   text-align: center;
   color: #333333;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 2rem;
   font-family: "Source Sans Pro", sans-serif;
 }
@@ -6275,7 +6275,7 @@ ul.pagination li {
   text-align: center;
   color: #777777;
   font-size: 0.75rem;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.4;
   border-bottom: dotted 1px #DDDDDD;
 }
@@ -6286,7 +6286,7 @@ ul.pagination li {
   text-align: center;
   color: #333333;
   font-size: 0.875rem;
-  font-weight: 300;
+  font-weight: 400;
   border-bottom: dotted 1px #DDDDDD;
 }
 /* line 146, ../../zurb_foundation/scss/foundation/components/_pricing-tables.scss */
@@ -6611,7 +6611,7 @@ ul.pagination li {
   top: 0.625rem;
   right: 1.375rem;
   color: #AAAAAA;
-  font-weight: 600;
+  font-weight: 700;
   cursor: pointer;
 }
 
@@ -6657,7 +6657,7 @@ dialog[open] {
 .side-nav li {
   margin: 0 0 0.4375rem 0;
   font-size: 0.875rem;
-  font-weight: 300;
+  font-weight: 400;
 }
 /* line 75, ../../zurb_foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li a:not(.button) {
@@ -6674,7 +6674,7 @@ dialog[open] {
 /* line 87, ../../zurb_foundation/scss/foundation/components/_side-nav.scss */
 .side-nav li.active > a:first-child:not(.button) {
   color: #a6a6a6;
-  font-weight: 300;
+  font-weight: 400;
   font-family: "Source Sans Pro", sans-serif;
 }
 /* line 93, ../../zurb_foundation/scss/foundation/components/_side-nav.scss */
@@ -6846,7 +6846,7 @@ dialog[open] {
   margin-left: 1rem;
   margin-bottom: 0;
   font-family: "Source Sans Pro", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 0.875rem;
   color: #999999;
 }
@@ -6869,7 +6869,7 @@ dialog[open] {
 .sub-nav dd.active a,
 .sub-nav li.active a {
   border-radius: 3px;
-  font-weight: 300;
+  font-weight: 400;
   background: gray;
   padding: 0.1875rem 1rem;
   cursor: default;
@@ -7058,7 +7058,7 @@ table thead tr th,
 table thead tr td {
   padding: 0.5rem 0.625rem 0.625rem;
   font-size: 0.875rem;
-  font-weight: 600;
+  font-weight: 700;
   color: #222222;
 }
 /* line 92, ../../zurb_foundation/scss/foundation/components/_tables.scss */
@@ -7070,7 +7070,7 @@ table tfoot tr th,
 table tfoot tr td {
   padding: 0.5rem 0.625rem 0.625rem;
   font-size: 0.875rem;
-  font-weight: 600;
+  font-weight: 700;
   color: #222222;
 }
 /* line 107, ../../zurb_foundation/scss/foundation/components/_tables.scss */
@@ -7245,7 +7245,7 @@ table tr td {
 .has-tip {
   border-bottom: dotted 1px #CCCCCC;
   cursor: help;
-  font-weight: 600;
+  font-weight: 700;
   color: #333333;
 }
 /* line 44, ../../zurb_foundation/scss/foundation/components/_tooltips.scss */
@@ -7263,7 +7263,7 @@ table tr td {
   display: none;
   position: absolute;
   z-index: 1006;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 0.875rem;
   line-height: 1.3;
   padding: 0.75rem;
@@ -7313,7 +7313,7 @@ table tr td {
   display: block;
   font-size: 0.625rem;
   color: #777777;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 @media only screen and (min-width: 40.063em) {
@@ -7456,7 +7456,7 @@ meta.foundation-mq-topbar {
 }
 /* line 208, ../scss/components/_top-bar.scss */
 .top-bar .name h1 a, .top-bar .name h2 a, .top-bar .name h3 a, .top-bar .name h4 a, .top-bar .name p a, .top-bar .name span a {
-  font-weight: 300;
+  font-weight: 400;
   color: #FFFFFF;
   width: 75%;
   display: block;
@@ -7473,7 +7473,7 @@ meta.foundation-mq-topbar {
   color: #FFFFFF;
   text-transform: uppercase;
   font-size: 0.8125rem;
-  font-weight: 600;
+  font-weight: 700;
   position: relative;
   display: block;
   padding: 0 0.9375rem;
@@ -7564,7 +7564,7 @@ meta.foundation-mq-topbar {
   padding-left: 0.9375rem;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 0.8125rem;
-  font-weight: 300;
+  font-weight: 400;
   text-transform: none;
 }
 /* line 327, ../scss/components/_top-bar.scss */
@@ -7792,12 +7792,12 @@ meta.foundation-mq-topbar {
 }
 /* line 415, ../scss/components/_top-bar.scss */
 .top-bar-section .dropdown li a {
-  font-weight: 300;
+  font-weight: 400;
   padding: 8px 0.9375rem;
 }
 /* line 418, ../scss/components/_top-bar.scss */
 .top-bar-section .dropdown li a.parent-link {
-  font-weight: 300;
+  font-weight: 400;
 }
 /* line 423, ../scss/components/_top-bar.scss */
 .top-bar-section .dropdown li.title h5, .top-bar-section .dropdown li.parent-link {
@@ -7828,7 +7828,7 @@ meta.foundation-mq-topbar {
   margin-bottom: 0;
   text-transform: uppercase;
   color: #777777;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 0.625rem;
 }
 
@@ -8368,7 +8368,7 @@ a img {
 /* line 234, ../scss/components/_type.scss */
 p {
   font-family: "Source Sans Pro", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 1.25rem;
@@ -8390,8 +8390,8 @@ p aside {
 /* line 252, ../scss/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Source Sans Pro", sans-serif;
-  font-weight: 300;
-  font-style: 300;
+  font-weight: 400;
+  font-style: 400;
   color: #222222;
   text-rendering: optimizeLegibility;
   margin-top: 0.2rem;
@@ -8439,7 +8439,7 @@ h6 {
 .subheader {
   line-height: 1.4;
   color: #6f6f6f;
-  font-weight: 300;
+  font-weight: 400;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
 }
@@ -8464,7 +8464,7 @@ i {
 /* line 293, ../scss/components/_type.scss */
 strong,
 b {
-  font-weight: 600;
+  font-weight: 700;
   line-height: inherit;
 }
 
@@ -8477,7 +8477,7 @@ small {
 /* line 304, ../scss/components/_type.scss */
 code {
   font-family: Consolas, "Liberation Mono", Courier, monospace;
-  font-weight: 300;
+  font-weight: 400;
   color: #333333;
   background-color: #f8f8f8;
   border-width: 1px;
@@ -8561,7 +8561,7 @@ ol li ol {
 /* line 376, ../scss/components/_type.scss */
 dl dt {
   margin-bottom: 0.3rem;
-  font-weight: 600;
+  font-weight: 700;
 }
 /* line 380, ../scss/components/_type.scss */
 dl dd {
@@ -8632,19 +8632,19 @@ blockquote p {
 }
 /* line 435, ../scss/components/_type.scss */
 .vcard .fn {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 0.9375rem;
 }
 
 /* line 442, ../scss/components/_type.scss */
 .vevent .summary {
-  font-weight: 600;
+  font-weight: 700;
 }
 /* line 444, ../scss/components/_type.scss */
 .vevent abbr {
   cursor: default;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 700;
   border: none;
   padding: 0 0.0625rem;
 }
@@ -8860,7 +8860,7 @@ blockquote p {
 /* line 188, ../scss/components/_offcanvas.scss */
 .tab-bar h1, .tab-bar h2, .tab-bar h3, .tab-bar h4, .tab-bar h5, .tab-bar h6 {
   color: #FFFFFF;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 2.8125rem;
   margin: 0;
 }
@@ -8960,7 +8960,7 @@ blockquote p {
   position: absolute;
   overflow-x: hidden;
   overflow-y: auto;
-  background: #D0338D;
+  background: #d03351;
   z-index: 1001;
   box-sizing: content-box;
   transition: transform 500ms ease 0s;
@@ -8988,7 +8988,7 @@ blockquote p {
   position: absolute;
   overflow-x: hidden;
   overflow-y: auto;
-  background: #D0338D;
+  background: #d03351;
   z-index: 1001;
   box-sizing: content-box;
   transition: transform 500ms ease 0s;
@@ -9020,7 +9020,7 @@ ul.off-canvas-list li label {
   color: #999999;
   text-transform: uppercase;
   font-size: 0.75rem;
-  font-weight: 600;
+  font-weight: 700;
   background: #444444;
   border-top: 1px solid #5e5e5e;
   border-bottom: none;
@@ -9031,7 +9031,7 @@ ul.off-canvas-list li a {
   display: block;
   padding: 0.66667rem;
   color: rgba(255, 255, 255, 0.7);
-  border-bottom: 1px solid #9e246a;
+  border-bottom: 1px solid #9e243c;
   transition: background 300ms ease;
 }
 /* line 268, ../scss/components/_offcanvas.scss */
@@ -9226,7 +9226,7 @@ ul.off-canvas-list li a:hover {
   margin: 0;
   overflow-x: hidden;
   overflow-y: auto;
-  background: #D0338D;
+  background: #d03351;
   z-index: 1002;
   box-sizing: content-box;
   -webkit-overflow-scrolling: touch;
@@ -9252,7 +9252,7 @@ ul.off-canvas-list li a:hover {
   padding: 0.3rem 0.9375rem;
   color: #999999;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 700;
   background: #444;
   border-top: 1px solid #5e5e5e;
   border-bottom: none;
@@ -9290,7 +9290,7 @@ ul.off-canvas-list li a:hover {
   margin: 0;
   overflow-x: hidden;
   overflow-y: auto;
-  background: #D0338D;
+  background: #d03351;
   z-index: 1002;
   box-sizing: content-box;
   -webkit-overflow-scrolling: touch;
@@ -9316,7 +9316,7 @@ ul.off-canvas-list li a:hover {
   padding: 0.3rem 0.9375rem;
   color: #999999;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 700;
   background: #444;
   border-top: 1px solid #5e5e5e;
   border-bottom: none;
@@ -9880,7 +9880,7 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
-/* line 7, ../scss/base/_init.scss */
+/* line 9, ../scss/base/_init.scss */
 .scroll-top {
   background-color: gray;
   border-radius: 4px;
@@ -9893,25 +9893,54 @@ th.hide-for-touch {
   width: 40px;
 }
 
-/* line 19, ../scss/base/_init.scss */
+/* line 21, ../scss/base/_init.scss */
 .fi-arrow-up::before {
   content: "";
 }
 
-/* line 22, ../scss/base/_init.scss */
+/* line 24, ../scss/base/_init.scss */
 .scroll-top i {
   color: #ffffff;
   font-size: 1.7rem;
   padding: 0;
 }
 
+/* line 33, ../scss/base/_init.scss */
+#edit-field-art-und-form-field-antal-und-0-value,
+#edit-field-art-und-entities-0-form-field-antal-und-0-value {
+  width: 50px;
+}
+
+/* line 37, ../scss/base/_init.scss */
+.form-item-field-art-und-entities-0-form-field-metod-und,
+#edit-field-art-und-form-field-metod {
+  margin-bottom: 1rem;
+}
+
+/* line 41, ../scss/base/_init.scss */
+#fynden-node-form legend,
+#fynden-node-form label {
+  font-weight: 600;
+  color: #d03351;
+}
+
+/* line 46, ../scss/base/_init.scss */
+#fynden-node-form .form-radios label {
+  color: #222222;
+}
+
+/* line 49, ../scss/base/_init.scss */
+#edit-field-art-und-form .fieldset-wrapper div {
+  margin-bottom: 1rem;
+}
+
 /*OVERRIDES*/
-/* line 31, ../scss/base/_init.scss */
+/* line 54, ../scss/base/_init.scss */
 .fieldset-wrapper .has-tip {
   display: none;
 }
 
-/* line 35, ../scss/base/_init.scss */
+/* line 58, ../scss/base/_init.scss */
 label[for=edit-field-strandkrabba-hona-und-0-value],
 label[for=edit-field-strandkrabba-hane-und-0-value],
 label[for=edit-field-bl-krabbor-und-0-value],
@@ -9921,7 +9950,7 @@ label[for=edit-field-tid-i-vattnet-und-0-value] {
   width: 210px;
 }
 
-/* line 43, ../scss/base/_init.scss */
+/* line 66, ../scss/base/_init.scss */
 #edit-field-strandkrabba-hona-und-0-value,
 #edit-field-strandkrabba-hane-und-0-value,
 #edit-field-bl-krabbor-und-0-value,
@@ -9932,158 +9961,152 @@ label[for=edit-field-tid-i-vattnet-und-0-value] {
   /*text-align: right;*/
 }
 
-/* line 53, ../scss/base/_init.scss */
+/* line 76, ../scss/base/_init.scss */
 .node-form #edit-submit {
   width: 100%;
 }
 
-/* line 57, ../scss/base/_init.scss */
+/* line 80, ../scss/base/_init.scss */
 fieldset.date-combo .container-inline-date .date-padding {
   padding: 0 10px 0 0;
 }
 
-/* line 60, ../scss/base/_init.scss */
+/* line 83, ../scss/base/_init.scss */
 .container-inline-date .form-item input, .container-inline-date .form-item select, .container-inline-date .form-item option {
   margin-right: 5px;
   margin-bottom: 0;
 }
 
-/* line 64, ../scss/base/_init.scss */
-.page-node-add-bur h1 {
+/* line 87, ../scss/base/_init.scss */
+.page-node-add-fynden #page-title {
   display: none;
 }
 
-/* line 68, ../scss/base/_init.scss */
+/* line 91, ../scss/base/_init.scss */
 .field-type-entityreference thead {
   display: none;
 }
 
-/* line 71, ../scss/base/_init.scss */
+/* line 94, ../scss/base/_init.scss */
 .field-type-entityreference ul {
   margin: 0;
   padding: 0;
 }
 
-/* line 75, ../scss/base/_init.scss */
+/* line 98, ../scss/base/_init.scss */
 .field-type-entityreference ul li {
   list-style-type: none;
 }
 
-/* line 78, ../scss/base/_init.scss */
+/* line 101, ../scss/base/_init.scss */
 .tabledrag-toggle-weight-wrapper {
   display: none;
 }
 
-/* line 81, ../scss/base/_init.scss */
+/* line 104, ../scss/base/_init.scss */
 .ief-tabledrag-handle {
   display: none;
 }
 
-/* line 84, ../scss/base/_init.scss */
+/* line 107, ../scss/base/_init.scss */
 .field-type-entityreference .form-submit {
   /*padding: 0.4rem 0.4rem;*/
   /*margin:  0;*/
   /*font-size: 0.75rem;*/
 }
 
-/* line 89, ../scss/base/_init.scss */
+/* line 112, ../scss/base/_init.scss */
 .field-type-entityreference table tr td, .field-type-entityreference ul li {
   font-size: 0.9rem;
   line-height: 2rem;
   color: #777;
 }
 
-/* line 94, ../scss/base/_init.scss */
+/* line 117, ../scss/base/_init.scss */
 .field-type-entityreference table tr td {
   padding-right: 4px;
   padding-left: 0;
 }
 
-/* line 98, ../scss/base/_init.scss */
+/* line 121, ../scss/base/_init.scss */
 .field-type-entityreference tr.even, tr.odd {
   background: none;
   /*border-left: none;
   border-right: none;*/
 }
 
-/* line 104, ../scss/base/_init.scss */
+/* line 127, ../scss/base/_init.scss */
 .field-type-entityreference table {
   width: 100%;
   border: none;
 }
 
-/* line 108, ../scss/base/_init.scss */
+/* line 131, ../scss/base/_init.scss */
 .field-type-entityreference table tr {
   border: none;
   border-bottom: 1px solid #dddddd;
 }
 
-/* line 112, ../scss/base/_init.scss */
+/* line 135, ../scss/base/_init.scss */
 .button.secondary a {
   color: #FFFFFF;
 }
 
-/* line 117, ../scss/base/_init.scss */
+/* line 140, ../scss/base/_init.scss */
 input[type="file"], input[type="checkbox"], input[type="radio"], select {
   margin: 0 !important;
 }
 
-/* line 120, ../scss/base/_init.scss */
+/* line 143, ../scss/base/_init.scss */
 #edit-field-projekt {
   margin-bottom: 2rem !important;
 }
 
-/* line 124, ../scss/base/_init.scss */
-.page-user .button-group {
-  display: none;
-}
-
-/* line 128, ../scss/base/_init.scss */
+/* line 151, ../scss/base/_init.scss */
 .l-header, .l-main, .l-messages {
   background: #FFFFFF;
 }
 
-/* line 131, ../scss/base/_init.scss */
+/* line 154, ../scss/base/_init.scss */
 .l-main {
   margin-bottom: 2rem;
-  margin-top: 55px;
 }
 
-/* line 135, ../scss/base/_init.scss */
+/* line 158, ../scss/base/_init.scss */
 .l-featured {
   /*background: $nyaarter-featured-gray;*/
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-/* line 143, ../scss/base/_init.scss */
+/* line 166, ../scss/base/_init.scss */
 .l-main .block-views .column {
   padding-left: 0;
 }
 
-/* line 146, ../scss/base/_init.scss */
+/* line 169, ../scss/base/_init.scss */
 .l-main .main .column {
   padding-left: 0;
 }
 
-/* line 149, ../scss/base/_init.scss */
+/* line 172, ../scss/base/_init.scss */
 .l-featured section {
   margin-bottom: 2rem;
 }
 
-/* line 152, ../scss/base/_init.scss */
+/* line 175, ../scss/base/_init.scss */
 .l-featured h2 {
   color: #FFFFFF;
   text-align: center;
   font-size: 1.2rem;
 }
 
-/* line 157, ../scss/base/_init.scss */
+/* line 180, ../scss/base/_init.scss */
 .l-messages {
   margin-top: 1rem;
 }
 
-/* line 160, ../scss/base/_init.scss */
+/* line 183, ../scss/base/_init.scss */
 .navigation-top-bar {
   background: url(../images/smal-bakgrund-1.jpg) center top;
   width: 100%;
@@ -10091,38 +10114,38 @@ input[type="file"], input[type="checkbox"], input[type="radio"], select {
   padding: 3px;
   z-index: 999999;
 }
-/* line 169, ../scss/base/_init.scss */
+/* line 192, ../scss/base/_init.scss */
 .navigation-top-bar .inner {
   max-width: 61.5em;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 175, ../scss/base/_init.scss */
+/* line 198, ../scss/base/_init.scss */
 .image-widget .form-file {
   margin-bottom: 1rem;
   padding-bottom: 2rem !important;
 }
 
-/* line 179, ../scss/base/_init.scss */
+/* line 202, ../scss/base/_init.scss */
 .form-item {
   margin: 0;
 }
 
-/* line 183, ../scss/base/_init.scss */
+/* line 206, ../scss/base/_init.scss */
 .navigation-top-bar-menu-button {
   display: inline-block;
   cursor: pointer;
   height: 40px;
   line-height: 40px;
   width: 40px;
-  background: #D0338D;
+  background: #d03351;
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
   border-radius: 20px;
 }
 
-/* line 194, ../scss/base/_init.scss */
+/* line 217, ../scss/base/_init.scss */
 .navigation-top-bar-menu-button a {
   color: #FFFFFF;
   text-align: center;
@@ -10130,12 +10153,12 @@ input[type="file"], input[type="checkbox"], input[type="radio"], select {
   display: block;
 }
 
-/* line 201, ../scss/base/_init.scss */
+/* line 224, ../scss/base/_init.scss */
 .navigation-top-bar .logo {
   display: inline-block;
 }
 
-/* line 206, ../scss/base/_init.scss */
+/* line 229, ../scss/base/_init.scss */
 .navigation-top-bar .sidtitel {
   margin-left: 2rem;
   float: left;
@@ -10146,13 +10169,13 @@ input[type="file"], input[type="checkbox"], input[type="radio"], select {
   letter-spacing: 0.6px;
 }
 
-/* line 218, ../scss/base/_init.scss */
+/* line 241, ../scss/base/_init.scss */
 .navigation-top-bar .sidtitel a {
   color: #FFFFFF;
 }
 
 /*Footer columns*/
-/* line 222, ../scss/base/_init.scss */
+/* line 245, ../scss/base/_init.scss */
 .l-footer-columns {
   /*background: $footer;*/
   color: #FFFFFF;
@@ -10161,12 +10184,12 @@ input[type="file"], input[type="checkbox"], input[type="radio"], select {
   padding-top: 1rem;
 }
 
-/* line 229, ../scss/base/_init.scss */
+/* line 252, ../scss/base/_init.scss */
 .l-footer-columns p, .l-footer-columns {
   font-size: 0.8rem;
 }
 
-/* line 232, ../scss/base/_init.scss */
+/* line 255, ../scss/base/_init.scss */
 .l-footer-columns .block-title {
   color: #FFFFFF;
   font-size: 1.2rem;
@@ -10174,19 +10197,19 @@ input[type="file"], input[type="checkbox"], input[type="radio"], select {
 }
 
 /*Footer bottom*/
-/* line 238, ../scss/base/_init.scss */
+/* line 261, ../scss/base/_init.scss */
 .l-footer {
   background: #666666;
   color: #FFFFFF;
   /*max-width: 100rem;*/
 }
 
-/* line 244, ../scss/base/_init.scss */
+/* line 267, ../scss/base/_init.scss */
 .l-footer.bottom {
   background: #000000;
 }
 
-/* line 247, ../scss/base/_init.scss */
+/* line 270, ../scss/base/_init.scss */
 .footer, .footer p {
   text-align: center;
   font-size: 0.7rem;
@@ -10194,12 +10217,12 @@ input[type="file"], input[type="checkbox"], input[type="radio"], select {
 
 /*=======================*/
 /*Footer menu\*/
-/* line 254, ../scss/base/_init.scss */
+/* line 277, ../scss/base/_init.scss */
 .l-footer-columns ul.menu {
   margin: 0;
 }
 
-/* line 257, ../scss/base/_init.scss */
+/* line 280, ../scss/base/_init.scss */
 .l-footer-columns ul.menu li {
   list-style-type: none;
   border-bottom: 1px dotted #969696;
@@ -10208,12 +10231,12 @@ input[type="file"], input[type="checkbox"], input[type="radio"], select {
   padding-left: 0.6rem;
 }
 
-/* line 264, ../scss/base/_init.scss */
+/* line 287, ../scss/base/_init.scss */
 .l-footer-columns ul.menu li.last {
   border-bottom: none;
 }
 
-/* line 267, ../scss/base/_init.scss */
+/* line 290, ../scss/base/_init.scss */
 .l-footer-columns ul.menu li a {
   color: #d8d8d8;
   font-size: 0.9rem;
