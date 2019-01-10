@@ -9880,7 +9880,7 @@ th.hide-for-touch {
     display: table-cell !important;
   }
 }
-/* line 9, ../scss/base/_init.scss */
+/* line 6, ../scss/base/_init.scss */
 .scroll-top {
   background-color: gray;
   border-radius: 4px;
@@ -9893,60 +9893,60 @@ th.hide-for-touch {
   width: 40px;
 }
 
-/* line 21, ../scss/base/_init.scss */
+/* line 18, ../scss/base/_init.scss */
 .fi-arrow-up::before {
   content: "";
 }
 
-/* line 24, ../scss/base/_init.scss */
+/* line 21, ../scss/base/_init.scss */
 .scroll-top i {
   color: #ffffff;
   font-size: 1.7rem;
   padding: 0;
 }
 
-/* line 32, ../scss/base/_init.scss */
+/* line 29, ../scss/base/_init.scss */
 .view-footer {
   margin-top: 1rem;
   text-align: center;
 }
 
-/* line 39, ../scss/base/_init.scss */
+/* line 36, ../scss/base/_init.scss */
 #edit-field-art-und-form-field-antal-und-0-value,
 #edit-field-art-und-entities-0-form-field-antal-und-0-value {
   width: 50px;
 }
 
-/* line 43, ../scss/base/_init.scss */
+/* line 40, ../scss/base/_init.scss */
 .form-item-field-art-und-entities-0-form-field-metod-und,
 #edit-field-art-und-form-field-metod {
   margin-bottom: 1rem;
 }
 
-/* line 47, ../scss/base/_init.scss */
+/* line 44, ../scss/base/_init.scss */
 #fynden-node-form legend,
 #fynden-node-form label {
   font-weight: 600;
   color: #d03351;
 }
 
-/* line 52, ../scss/base/_init.scss */
+/* line 49, ../scss/base/_init.scss */
 #fynden-node-form .form-radios label {
   color: #222222;
 }
 
-/* line 55, ../scss/base/_init.scss */
+/* line 52, ../scss/base/_init.scss */
 #edit-field-art-und-form .fieldset-wrapper div {
   margin-bottom: 1rem;
 }
 
 /*OVERRIDES*/
-/* line 60, ../scss/base/_init.scss */
+/* line 57, ../scss/base/_init.scss */
 .fieldset-wrapper .has-tip {
   display: none;
 }
 
-/* line 64, ../scss/base/_init.scss */
+/* line 61, ../scss/base/_init.scss */
 label[for=edit-field-strandkrabba-hona-und-0-value],
 label[for=edit-field-strandkrabba-hane-und-0-value],
 label[for=edit-field-bl-krabbor-und-0-value],
@@ -9956,7 +9956,7 @@ label[for=edit-field-tid-i-vattnet-und-0-value] {
   width: 210px;
 }
 
-/* line 72, ../scss/base/_init.scss */
+/* line 69, ../scss/base/_init.scss */
 #edit-field-strandkrabba-hona-und-0-value,
 #edit-field-strandkrabba-hane-und-0-value,
 #edit-field-bl-krabbor-und-0-value,
@@ -9967,152 +9967,152 @@ label[for=edit-field-tid-i-vattnet-und-0-value] {
   /*text-align: right;*/
 }
 
-/* line 82, ../scss/base/_init.scss */
+/* line 79, ../scss/base/_init.scss */
 .node-form #edit-submit {
   width: 100%;
 }
 
-/* line 86, ../scss/base/_init.scss */
+/* line 83, ../scss/base/_init.scss */
 fieldset.date-combo .container-inline-date .date-padding {
   padding: 0 10px 0 0;
 }
 
-/* line 89, ../scss/base/_init.scss */
+/* line 86, ../scss/base/_init.scss */
 .container-inline-date .form-item input, .container-inline-date .form-item select, .container-inline-date .form-item option {
   margin-right: 5px;
   margin-bottom: 0;
 }
 
-/* line 93, ../scss/base/_init.scss */
+/* line 90, ../scss/base/_init.scss */
 .page-node-add-fynden #page-title {
   display: none;
 }
 
-/* line 97, ../scss/base/_init.scss */
+/* line 94, ../scss/base/_init.scss */
 .field-type-entityreference thead {
   display: none;
 }
 
-/* line 100, ../scss/base/_init.scss */
+/* line 97, ../scss/base/_init.scss */
 .field-type-entityreference ul {
   margin: 0;
   padding: 0;
 }
 
-/* line 104, ../scss/base/_init.scss */
+/* line 101, ../scss/base/_init.scss */
 .field-type-entityreference ul li {
   list-style-type: none;
 }
 
-/* line 107, ../scss/base/_init.scss */
+/* line 104, ../scss/base/_init.scss */
 .tabledrag-toggle-weight-wrapper {
   display: none;
 }
 
-/* line 110, ../scss/base/_init.scss */
+/* line 107, ../scss/base/_init.scss */
 .ief-tabledrag-handle {
   display: none;
 }
 
-/* line 113, ../scss/base/_init.scss */
+/* line 110, ../scss/base/_init.scss */
 .field-type-entityreference .form-submit {
   /*padding: 0.4rem 0.4rem;*/
   /*margin:  0;*/
   /*font-size: 0.75rem;*/
 }
 
-/* line 118, ../scss/base/_init.scss */
+/* line 115, ../scss/base/_init.scss */
 .field-type-entityreference table tr td, .field-type-entityreference ul li {
   font-size: 0.9rem;
   line-height: 2rem;
   color: #777;
 }
 
-/* line 123, ../scss/base/_init.scss */
+/* line 120, ../scss/base/_init.scss */
 .field-type-entityreference table tr td {
   padding-right: 4px;
   padding-left: 0;
 }
 
-/* line 127, ../scss/base/_init.scss */
+/* line 124, ../scss/base/_init.scss */
 .field-type-entityreference tr.even, tr.odd {
   background: none;
   /*border-left: none;
   border-right: none;*/
 }
 
-/* line 133, ../scss/base/_init.scss */
+/* line 130, ../scss/base/_init.scss */
 .field-type-entityreference table {
   width: 100%;
   border: none;
 }
 
-/* line 137, ../scss/base/_init.scss */
+/* line 134, ../scss/base/_init.scss */
 .field-type-entityreference table tr {
   border: none;
   border-bottom: 1px solid #dddddd;
 }
 
-/* line 141, ../scss/base/_init.scss */
+/* line 138, ../scss/base/_init.scss */
 .button.secondary a {
   color: #FFFFFF;
 }
 
-/* line 146, ../scss/base/_init.scss */
+/* line 143, ../scss/base/_init.scss */
 input[type="file"], input[type="checkbox"], input[type="radio"], select {
   margin: 0 !important;
 }
 
-/* line 149, ../scss/base/_init.scss */
+/* line 146, ../scss/base/_init.scss */
 #edit-field-projekt {
   margin-bottom: 2rem !important;
 }
 
-/* line 157, ../scss/base/_init.scss */
+/* line 154, ../scss/base/_init.scss */
 .l-header, .l-main, .l-messages {
   background: #FFFFFF;
 }
 
-/* line 160, ../scss/base/_init.scss */
+/* line 157, ../scss/base/_init.scss */
 .l-main {
   margin-bottom: 2rem;
 }
 
-/* line 164, ../scss/base/_init.scss */
+/* line 161, ../scss/base/_init.scss */
 .l-featured {
   /*background: $nyaarter-featured-gray;*/
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-/* line 172, ../scss/base/_init.scss */
+/* line 169, ../scss/base/_init.scss */
 .l-main .block-views .column {
   padding-left: 0;
 }
 
-/* line 175, ../scss/base/_init.scss */
+/* line 172, ../scss/base/_init.scss */
 .l-main .main .column {
   padding-left: 0;
 }
 
-/* line 178, ../scss/base/_init.scss */
+/* line 175, ../scss/base/_init.scss */
 .l-featured section {
   margin-bottom: 2rem;
 }
 
-/* line 181, ../scss/base/_init.scss */
+/* line 178, ../scss/base/_init.scss */
 .l-featured h2 {
   color: #FFFFFF;
   text-align: center;
   font-size: 1.2rem;
 }
 
-/* line 186, ../scss/base/_init.scss */
+/* line 183, ../scss/base/_init.scss */
 .l-messages {
   margin-top: 1rem;
 }
 
-/* line 189, ../scss/base/_init.scss */
+/* line 186, ../scss/base/_init.scss */
 .navigation-top-bar {
   background: url(../images/smal-bakgrund-1.jpg) center top;
   width: 100%;
@@ -10120,25 +10120,25 @@ input[type="file"], input[type="checkbox"], input[type="radio"], select {
   padding: 3px;
   z-index: 999999;
 }
-/* line 198, ../scss/base/_init.scss */
+/* line 195, ../scss/base/_init.scss */
 .navigation-top-bar .inner {
   max-width: 61.5em;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 204, ../scss/base/_init.scss */
+/* line 201, ../scss/base/_init.scss */
 .image-widget .form-file {
   margin-bottom: 1rem;
   padding-bottom: 2rem !important;
 }
 
-/* line 208, ../scss/base/_init.scss */
+/* line 205, ../scss/base/_init.scss */
 .form-item {
   margin: 0;
 }
 
-/* line 212, ../scss/base/_init.scss */
+/* line 209, ../scss/base/_init.scss */
 .navigation-top-bar-menu-button {
   display: inline-block;
   cursor: pointer;
@@ -10151,7 +10151,7 @@ input[type="file"], input[type="checkbox"], input[type="radio"], select {
   border-radius: 20px;
 }
 
-/* line 223, ../scss/base/_init.scss */
+/* line 220, ../scss/base/_init.scss */
 .navigation-top-bar-menu-button a {
   color: #FFFFFF;
   text-align: center;
@@ -10159,12 +10159,12 @@ input[type="file"], input[type="checkbox"], input[type="radio"], select {
   display: block;
 }
 
-/* line 230, ../scss/base/_init.scss */
+/* line 227, ../scss/base/_init.scss */
 .navigation-top-bar .logo {
   display: inline-block;
 }
 
-/* line 235, ../scss/base/_init.scss */
+/* line 232, ../scss/base/_init.scss */
 .navigation-top-bar .sidtitel {
   margin-left: 2rem;
   float: left;
@@ -10175,13 +10175,13 @@ input[type="file"], input[type="checkbox"], input[type="radio"], select {
   letter-spacing: 0.6px;
 }
 
-/* line 247, ../scss/base/_init.scss */
+/* line 244, ../scss/base/_init.scss */
 .navigation-top-bar .sidtitel a {
   color: #FFFFFF;
 }
 
 /*Footer columns*/
-/* line 251, ../scss/base/_init.scss */
+/* line 248, ../scss/base/_init.scss */
 .l-footer-columns {
   /*background: $footer;*/
   color: #FFFFFF;
@@ -10190,12 +10190,12 @@ input[type="file"], input[type="checkbox"], input[type="radio"], select {
   padding-top: 1rem;
 }
 
-/* line 258, ../scss/base/_init.scss */
+/* line 255, ../scss/base/_init.scss */
 .l-footer-columns p, .l-footer-columns {
   font-size: 0.8rem;
 }
 
-/* line 261, ../scss/base/_init.scss */
+/* line 258, ../scss/base/_init.scss */
 .l-footer-columns .block-title {
   color: #FFFFFF;
   font-size: 1.2rem;
@@ -10203,19 +10203,19 @@ input[type="file"], input[type="checkbox"], input[type="radio"], select {
 }
 
 /*Footer bottom*/
-/* line 267, ../scss/base/_init.scss */
+/* line 264, ../scss/base/_init.scss */
 .l-footer {
   background: #666666;
   color: #FFFFFF;
   /*max-width: 100rem;*/
 }
 
-/* line 273, ../scss/base/_init.scss */
+/* line 270, ../scss/base/_init.scss */
 .l-footer.bottom {
   background: #000000;
 }
 
-/* line 276, ../scss/base/_init.scss */
+/* line 273, ../scss/base/_init.scss */
 .footer, .footer p {
   text-align: center;
   font-size: 0.7rem;
@@ -10223,12 +10223,12 @@ input[type="file"], input[type="checkbox"], input[type="radio"], select {
 
 /*=======================*/
 /*Footer menu\*/
-/* line 283, ../scss/base/_init.scss */
+/* line 280, ../scss/base/_init.scss */
 .l-footer-columns ul.menu {
   margin: 0;
 }
 
-/* line 286, ../scss/base/_init.scss */
+/* line 283, ../scss/base/_init.scss */
 .l-footer-columns ul.menu li {
   list-style-type: none;
   border-bottom: 1px dotted #969696;
@@ -10237,12 +10237,12 @@ input[type="file"], input[type="checkbox"], input[type="radio"], select {
   padding-left: 0.6rem;
 }
 
-/* line 293, ../scss/base/_init.scss */
+/* line 290, ../scss/base/_init.scss */
 .l-footer-columns ul.menu li.last {
   border-bottom: none;
 }
 
-/* line 296, ../scss/base/_init.scss */
+/* line 293, ../scss/base/_init.scss */
 .l-footer-columns ul.menu li a {
   color: #d8d8d8;
   font-size: 0.9rem;
